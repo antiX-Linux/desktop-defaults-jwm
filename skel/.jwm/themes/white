@@ -1,0 +1,56 @@
+<!-- Bluelight by Tman -->
+
+<JWM>
+
+<WindowStyle>
+	<Font>DejaVu Sans-13</Font>
+	<Width>2</Width>
+	<Height>25</Height>
+	<Active>
+		<Text>#ffffff</Text>
+		<Title>#004283:#74A2D0</Title>
+       	<Outline>black</Outline>
+	</Active>
+	<Inactive>
+		<Text>#000000</Text>
+	     <Title>#A2C6E7:#4B82B7</Title>
+       	<Outline>black</Outline>
+	</Inactive>
+</WindowStyle>
+
+<TaskListStyle>
+	<Font>DejaVu Sans 12</Font>
+	<Foreground>#000000</Foreground>
+	<Background>#ffffff:#bfbfbf</Background>
+	<ActiveForeground>#ffffff</ActiveForeground>
+	<ActiveBackground>#75b8f7:#3578b7</ActiveBackground>
+</TaskListStyle>
+
+<TrayStyle>
+	<Font>DejaVu Sans 13:bold</Font>
+	<Foreground>#000000</Foreground>
+	<Background>#f1efeb</Background>
+</TrayStyle>
+
+<PagerStyle>
+	<Outline>black</Outline>
+	<!-- non-active programs: bg[NORMAL]-->
+	<Foreground>#f1efeb</Foreground>
+	<!-- non-active desktops: bg[ACTIVE]-->
+	<Background>#d7d3ca</Background>
+	<!-- selected app/desktop bg[SELECTED]-->
+	<ActiveForeground>#ffffff</ActiveForeground>
+	<!-- frame of selected desktop...bg[SELECTED] -->
+	<ActiveBackground>#5598d7</ActiveBackground>
+</PagerStyle>
+
+
+<MenuStyle>
+	<Font>DejaVu Sans 12</Font>
+	<Foreground>#000000</Foreground>
+	<Background>#f1efeb</Background>
+	<ActiveForeground>#ffffff</ActiveForeground>
+	<ActiveBackground>#004283:#74A2D0</ActiveBackground>
+</MenuStyle>
+
+</JWM>

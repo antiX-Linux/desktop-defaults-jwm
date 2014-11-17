@@ -1,0 +1,34 @@
+<JWM>
+
+
+<!-- Additional tray attributes: autohide, width, border, layer, layout, valign -->
+<Tray x="0" y="-1" height="28" layer="5" valign="bottom">
+
+   <!-- Additional TrayButton attributes: label, icon, popup -->
+   <TrayButton label=" antiX  ">root:1</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png" popup="Domovská složka">exec: desktop-defaults-run -fm</TrayButton>
+   <TrayButton label="" icon="/usr/share/pixmaps/roxterm.xpm" popup="Terminál">exec: desktop-defaults-run -t</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/internet-web-browser.png" popup="Prohlížeč">exec: desktop-defaults-run -b</TrayButton> 
+   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-desktop.png" popup="Ovládací centrum">exec: antixcc.sh</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/remove.png" popup="Unplug Removable Device">exec: unplugdrive.sh</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/system-log-out.png" popup="Konec">exec: desktop-session-exit</TrayButton>
+   
+   <!-- Additional TaskList attribute: maxwidth -->
+   <TaskList maxwidth="125"/>
+
+   <!-- Additional Pager attributes; width, height -->
+   <Pager/>
+
+   <!-- Additional Dock attribute: none -->
+   <Dock/>
+
+   <!-- Additional Swallow attribute: height, width -->
+   <!-- <Swallow name="xload" height="28" width="30"> xload -update 2 -jumpscroll 1 -nolabel -bg black -fg green -hl black </Swallow> -->
+
+   <!-- Additional Clock attributes: format, height, width, zone -->
+   <Clock format="%k:%M  "></Clock>
+
+</Tray>
+
+
+</JWM>

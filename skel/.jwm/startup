@@ -1,0 +1,13 @@
+<JWM>
+
+
+<!-- Applications used in conjunction with JWM -->
+<StartupCommand> 
+#setxkbmap -layout "$XKBLAYOUT" -variant "$XKBVARIANT" -option "$XKBOPTIONS" 
+toram-eject
+sudo persist-config --startup
+</StartupCommand>
+
+
+</JWM>
+

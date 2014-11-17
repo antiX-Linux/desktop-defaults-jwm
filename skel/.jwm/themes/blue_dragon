@@ -1,0 +1,60 @@
+<JWM>
+<!-- Visual Styles -->
+<!-- evil blue glow -->
+
+<WindowStyle>
+<Font antialias="false">smoothansi</Font>
+<Width>4</Width>
+<Height>20</Height>
+<Active>
+<Text>snow</Text>
+<Title>blue:light blue</Title>
+<Outline>snow</Outline>
+</Active>
+<Inactive>
+<Text>black</Text>
+<Title>dark blue:light blue</Title>
+<Outline>light blue</Outline>
+</Inactive>
+</WindowStyle>
+
+<TaskListStyle>
+<Font antialias="false">smoothansi</Font>
+<ActiveForeground>black</ActiveForeground>
+<ActiveBackground>darkblue:snow</ActiveBackground>
+<Foreground>snow</Foreground>
+<Background>light blue:blue</Background>
+</TaskListStyle>
+
+<!-- Additional TrayStyle attribute: insert -->
+
+<TrayStyle>
+<Font antialias="false">smoothansi</Font>
+<Background>blue</Background>
+<Foreground>dark blue</Foreground>
+</TrayStyle>
+
+<PagerStyle>
+<Outline>grey66</Outline>
+<Foreground>grey44</Foreground>
+<Background>snow</Background>
+<ActiveForeground>darkblue</ActiveForeground>
+<ActiveBackground>light blue</ActiveBackground>
+</PagerStyle>
+
+<MenuStyle>
+<Font antialias="false">smoothansi</Font>
+<Foreground>snow</Foreground>
+<Background>grey0</Background>
+<ActiveForeground>black</ActiveForeground>
+<ActiveBackground>blue:white</ActiveBackground>
+</MenuStyle>
+
+<PopupStyle>
+<Font antialias="false">smoothansi</Font>
+<Outline>light blue</Outline>
+<Foreground>snow</Foreground>
+<Background>blue</Background>
+</PopupStyle>
+
+</JWM>

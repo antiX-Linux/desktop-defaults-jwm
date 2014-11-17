@@ -1,0 +1,59 @@
+<JWM>
+<!-- dsl4ice -->
+
+<WindowStyle>
+<Font antialias="false">smoothansi</Font>
+<Width>4</Width>
+<Height>20</Height>
+<Active>
+<Text>dodgerblue3</Text>
+<Title>grey77:white</Title>
+<Outline>grey66</Outline>
+</Active>
+<Inactive>
+<Text>grey38</Text>
+<Title>grey44:grey66</Title>
+<Outline>black</Outline>
+</Inactive>
+</WindowStyle>
+
+<TaskListStyle>
+<Font antialias="false">smoothansi</Font>
+<ActiveForeground>dodgerblue3</ActiveForeground>
+<ActiveBackground>grey77:white</ActiveBackground>
+<Foreground>grey38</Foreground>
+<Background>grey44:grey66</Background>
+</TaskListStyle>
+
+<!-- Additional TrayStyle attribute: insert -->
+<TrayStyle>
+<Font antialias="false">smoothansi</Font>
+<Background>lightsteelblue</Background>
+<Foreground>dodgerblue3</Foreground>
+</TrayStyle>
+
+<PagerStyle>
+<Outline>black</Outline>
+<Foreground>grey66</Foreground>
+<Background>grey33</Background>
+<ActiveForeground>dodgerblue3</ActiveForeground>
+<ActiveBackground>white</ActiveBackground>
+</PagerStyle>
+
+<MenuStyle>
+<Font antialias="false">smoothansi</Font>
+<Foreground>grey55</Foreground>
+<Background>white</Background>
+<ActiveForeground>dodgerblue3</ActiveForeground>
+<ActiveBackground>grey77:white</ActiveBackground>
+</MenuStyle>
+
+<PopupStyle>
+<Font antialias="false">smoothansi</Font>
+<Outline>black</Outline>
+<Foreground>black</Foreground>
+<Background>darkorange</Background>
+</PopupStyle>
+
+<!-- end dsl4ice color scheme -->
+</JWM>
