@@ -6,12 +6,12 @@
 
    <!-- Additional TrayButton attributes: label, icon, popup -->
    <TrayButton label=" antiX  ">root:1</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png" popup="Cartella Home">exec: desktop-defaults-run -fm</TrayButton>
-   <TrayButton label="" icon="/usr/share/pixmaps/roxterm.xpm" popup="Terminale">exec: desktop-defaults-run -t</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/internet-web-browser.png" popup="Browser">exec: desktop-defaults-run -b</TrayButton> 
-   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-desktop.png" popup="Centro di controllo">exec: antixcc.sh</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/remove.png" popup="Unplug Removable Device">exec: unplugdrive.sh</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/system-log-out.png" popup="Esci">exec: desktop-session-exit</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png" popup="Cartella Home">exec: desktop-defaults-run -fm</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png" popup="Terminale">exec: desktop-defaults-run -t</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png" popup="Browser">exec: desktop-defaults-run -b</TrayButton> 
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png" popup="Centro di controllo">exec: antixcc.sh</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png" popup="Unplug Removable Device">exec: unplugdrive.sh</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png" popup="Esci">exec: desktop-session-exit</TrayButton>
    
    <!-- Additional TaskList attribute: maxwidth -->
    <TaskList maxwidth="125"/>

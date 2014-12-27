@@ -1,10 +1,10 @@
 <JWM>
-<Program label="SpaceFM" icon="/usr/share/icons/hicolor/48x48/apps/spacefm.png">spacefm </Program>
-<Program label="Claws Mail" icon="/usr/share/pixmaps/claws-mail.png">claws-mail </Program>
-<Program label="Iceweasel" icon="/usr/share/icons/hicolor/32x32/apps/iceweasel.png">iceweasel </Program>
+<Program label="SpaceFM" icon="/usr/share/icons/hicolor/48x48/apps/spacefm.png">spacefm</Program>
+<Program label="Claws Mail" icon="/usr/share/pixmaps/claws-mail.png">claws-mail</Program>
+<Program label="Iceweasel" icon="/usr/share/icons/hicolor/32x32/apps/iceweasel.png">iceweasel</Program>
 <Program label="ROXTerm" icon="/usr/share/icons/hicolor/scalable/apps/roxterm.svg">roxterm</Program>
-<Program label="Geany" icon="/usr/share/icons/hicolor/scalable/apps/geany.svg">geany </Program>
-<Program label="Mirage" icon="/usr/share/pixmaps/mirage.png">mirage </Program>
+<Program label="Leafpad" icon="/usr/share/icons/hicolor/32x32/apps/leafpad.png">leafpad</Program>
+<Program label="Mirage" icon="/usr/share/pixmaps/mirage.png">mirage</Program>
 <Program label="xmms" icon="/usr/share/icons/xmms.png">xmms</Program>
-<Program label="GNOME MPlayer" icon="/usr/share/icons/hicolor/32x32/apps/gnome-mplayer.png">gnome-mplayer </Program>
+<Program label="GNOME MPlayer" icon="/usr/share/icons/hicolor/32x32/apps/gnome-mplayer.png">gnome-mplayer</Program>
 </JWM>

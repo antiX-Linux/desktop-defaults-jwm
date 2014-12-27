@@ -1,86 +1,86 @@
 <JWM>
-    <Program label="Terminal" icon="/usr/share/pixmaps/roxterm.xpm">desktop-defaults-run -t</Program>
-    <Program label="Kodukataloog" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">desktop-defaults-run -fm</Program>
+    <Program label="Terminal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png">desktop-defaults-run -t</Program>
+    <Program label="Kodukataloog" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png">desktop-defaults-run -fm</Program>
     <Separator/>
-    <Program label="Veebibrauserit" icon="/usr/share/pixmaps/iceweasel.xpm">desktop-defaults-run -b</Program>
-    <Program label="Tekstiredaktor" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/accessories-text-editor.png">desktop-defaults-run -te</Program>
+    <Program label="Veebibrauserit" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png">desktop-defaults-run -b</Program>
+    <Program label="Tekstiredaktor" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png">desktop-defaults-run -te</Program>
     <Separator/>
-    <Menu label="Personal" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/blam.png">
+    <Menu label="Personal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
         <Include>$HOME/.jwm/personal</Include>
     </Menu>
-    <Menu label="Rakendused" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/blam.png">
+    <Menu label="Rakendused" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Menu label="Update Menus" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png">
-        <Program label="Update Personal Menu" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png">desktop-menu --menu-file='/etc/xdg/menus/TCM-MENU.menu' --write-out --write-out-file='personal'</Program>
-        <Program label="Update Local App Menu" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png">desktop-menu --write-out</Program>
-        <Program label="Update Global App Menu" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png">desktop-menu --write-out-global</Program>
+    <Menu label="Update Menus" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-settings-default-applications.png">
+        <Program label="Update Personal Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --menu-file='/etc/xdg/menus/TCM-MENU.menu' --write-out --write-out-file='personal'</Program>
+        <Program label="Update Local App Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out</Program>
+        <Program label="Update Global App Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     </Menu>
     <Separator/>
-    <Menu label="Töölaud" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png">
-        <Menu label="Alternate Desktops" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png">
+    <Menu label="Töölaud" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+        <Menu label="Alternate Desktops" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
             <Include>/usr/share/desktop-session/wm-menus/jwm-wm-menu</Include>
         </Menu>
         <Separator/>
-        <Program label="Add Desktop" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png">add-desktop</Program>
-        <Program label="Wallpaper" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/preferences-desktop-wallpaper.png">wallpaper.py</Program>
-        <Program label="GTK Theme" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/preferences-desktop-wallpaper.png">lxappearance</Program>
-        <Program label="Desktop Defaults" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png">desktop-defaults-set</Program>
-        <Program label="Window Manager" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png">edit-wm-settings</Program>
-        <Program label="Session Settings" icon="/usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-system.png">desktop-defaults-run -te ~/.desktop-session/desktop-session.conf</Program>
-        <Program label="Session Settings (Global)" icon="/usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-system.png">desktop-defaults-run -r -te /etc/desktop-session/desktop-session.conf</Program>
+        <Program label="Add Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">add-desktop</Program>
+        <Program label="Wallpaper" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-desktop-wallpaper.png">wallpaper.py</Program>
+        <Program label="GTK Theme" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-desktop-theme.png">lxappearance</Program>
+        <Program label="Desktop Defaults" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-settings-default-applications.png">desktop-defaults-set</Program>
+        <Program label="Window Manager" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-system-windows.png">edit-wm-settings</Program>
+        <Program label="Session Settings" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">desktop-defaults-run -te ~/.desktop-session/desktop-session.conf</Program>
+        <Program label="Session Settings (Global)" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">desktop-defaults-run -r -te /etc/desktop-session/desktop-session.conf</Program>
         <Separator/>
-        <Program label="RoxPanel on/off" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-panel.png">paneltoggle.sh</Program>
-        <Program label="Conky on/off" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/utilities-system-monitor.png">conkytoggle.sh</Program>
+        <Program label="RoxPanel on/off" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
+        <Program label="Conky on/off" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png">conkytoggle.sh</Program>
     </Menu>
     <Separator/>
-    <Menu label="Tööriistad" icon="/usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-system.png">
-        <Program label="Nano" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/utilities-terminal.png">desktop-defaults-run -t nano</Program>
+    <Menu label="Tööriistad" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">
+        <Program label="Nano" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-terminal.png">desktop-defaults-run -t nano</Program>
         <Program label="Ted" icon="/usr/share/Ted/Ted.png">/usr/bin/Ted</Program>
         <Program label="Rox Filer" icon="/usr/share/icons/antiX/rox-filer.png">rox</Program>
         <Program label="SpaceFM" icon="/usr/share/icons/hicolor/48x48/apps/spacefm.png">spacefm</Program>
-        <Program label="Otsi" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/edit-find.png">spacefm --find-files</Program>
+        <Program label="Otsi" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/48/spacefm-find.png">spacefm --find-files</Program>
         <Program label="MC File Manager" icon="/usr/share/icons/hicolor/64x64/apps/MidnightCommander.png">desktop-defaults-run -t mc</Program>
-        <Program label="App Killer" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/dialog-cancel.png">xkill</Program>
-        <Program label="Process Viewer" icon="/usr/share/pixmaps/htop.png">desktop-defaults-run -t htop</Program>
-        <Program label="Teave süsteemi" icon="/usr/share/icons/gTangish-2.0a1/32x32/devices/computer.png">inxi-gui</Program>
-        <Program label="Add .desktop Files" icon="/usr/share/icons/gTangish-2.0a1/32x32/actions/gtk-edit.png">ktsuss adddesktop.sh</Program>
+        <Program label="App Killer" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png">xkill</Program>
+        <Program label="Process Viewer" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/htop.png">desktop-defaults-run -t htop</Program>
+        <Program label="Teave süsteemi" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/computer.png">inxi-gui</Program>
+        <Program label="Add .desktop Files" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-edit.png">ktsuss adddesktop.sh</Program>
     </Menu>
-    <Program label="Juhtimiskeskus" icon="/usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-desktop.png">antixcc.sh</Program>
+    <Program label="Juhtimiskeskus" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png">antixcc.sh</Program>
     <Separator/>
-    <Menu label="Abi" icon="/usr/share/icons/gTangish-2.0a1/32x32/apps/help-browser.png">
-        <Menu label="antiX" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">
+    <Menu label="Abi" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png">
+        <Menu label="antiX" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="antiX FAQ">dillo /usr/share/antiX/FAQ/index.html</Program>
             <Program label="antiX-live How-To">dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html</Program>
             <Separator/>
             <Program label="Rox Manual">desktop-defaults-run -b http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
         </Menu>
         <Separator/>
-        <Menu label="Fluxbox" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">
+        <Menu label="Fluxbox" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Fluxbox Docs">desktop-defaults-run -b http://fluxbox.sourceforge.net/docbook/en/html/</Program>
             <Program label="Fluxbox FAQ">desktop-defaults-run -b http://fluxbox-wiki.org/index.php/Faqs</Program>
             <Program label="Fluxbox Wiki">desktop-defaults-run -b http://fluxbox-wiki.org/index.php/Fluxbox-wiki</Program>
             <Separator/>
             <Program label="Arch Wiki">desktop-defaults-run -b http://wiki.archlinux.org/index.php/Fluxbox</Program>
         </Menu>
-        <Menu label="IceWM" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">
+        <Menu label="IceWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="IceWM FAQ">desktop-defaults-run -b http://www.icewm.org/FAQ/</Program>
             <Program label="IceWM Manual">desktop-defaults-run -b http://www.icewm.org/manual/</Program>
             <Separator/>
             <Program label="OSNews">desktop-defaults-run -b http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/</Program>
         </Menu>
-        <Menu label="JWM" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">
+        <Menu label="JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Homepage">desktop-defaults-run -b http://joewing.net/programs/jwm/</Program>
             <Program label="Arch Wiki">desktop-defaults-run -b https://wiki.archlinux.org/index.php/JWM</Program>
             <Program label="WM - Puppy-Linux">desktop-defaults-run -b http://puppy.b0x.me/wiki/doku.php?id=jwm</Program>
         </Menu>
         <Separator/>
-        <Menu label="Rakendused" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">
+        <Menu label="Rakendused" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Firewall">desktop-defaults-run -b https://help.ubuntu.com/community/Gufw</Program>
             <Program label="mtPaint">desktop-defaults-run -b http://mtpaint.sourceforge.net/handbook/</Program>
             <Program label="Partimage">desktop-defaults-run -b http://www.partimage.org/Partimage-manual_Usage</Program>
         </Menu>
-        <Menu label="Man Pages" icon="/usr/share/icons/gTangish-2.0a1/32x32/places/folder.png">
+        <Menu label="Man Pages" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Backup">desktop-defaults-run -t man luckybackup</Program>
             <Program label="Irssi">desktop-defaults-run -t man irssi</Program>
             <Program label="mc">desktop-defaults-run -t man mc</Program>
@@ -93,5 +93,5 @@
     </Menu>
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
-    <Program label="Paigalda">gksu antixsources.sh</Program>
+    <Program label="Paigalda" icon="/usr/share/icons/msystem.png">gksu antixsources.sh</Program>
 </JWM>

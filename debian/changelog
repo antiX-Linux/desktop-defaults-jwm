@@ -1,3 +1,10 @@
+desktop-defaults-jwm-antix (0.2.3) unstable; urgency=low
+ 
+  * Added new icon set to menu files.
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 26 Dec 2014 23:32:00 +0200
+
+
 desktop-defaults-jwm-antix (0.2.2) unstable; urgency=low
  
   * Improved keys file.
