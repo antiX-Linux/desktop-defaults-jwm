@@ -13,9 +13,9 @@
    <Include>$HOME/.jwm/menu</Include>
 
    <Separator/>
-   <Menu label="Sair da Sessão">
-     <Restart label="Reiniciar JWM" icon="restart.png"/>
-     <Program label="Sair da Sessão">desktop-session-exit</Program>
+   <Menu label="Sair da Sessão" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Reiniciar JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Program label="Sair da Sessão" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">desktop-session-exit</Program>
    </Menu>
 </RootMenu>
 

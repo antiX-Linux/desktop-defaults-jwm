@@ -13,9 +13,9 @@
    <Include>$HOME/.jwm/menu</Include>
 
    <Separator/>
-   <Menu label="Kirjaudu ulos">
-     <Restart label="Käynnistä uudelleen JWM" icon="restart.png"/>
-     <Program label="Kirjaudu ulos">desktop-session-exit</Program>
+   <Menu label="Kirjaudu ulos" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Käynnistä uudelleen JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Program label="Kirjaudu ulos" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">desktop-session-exit</Program>
    </Menu>
 </RootMenu>
 

@@ -13,9 +13,9 @@
    <Include>$HOME/.jwm/menu</Include>
 
    <Separator/>
-   <Menu label="Atsijungti">
-     <Restart label="Perkrauti JWM" icon="restart.png"/>
-     <Program label="Atsijungti">desktop-session-exit</Program>
+   <Menu label="Atsijungti" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Perkrauti JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Program label="Atsijungti" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">desktop-session-exit</Program>
    </Menu>
 </RootMenu>
 

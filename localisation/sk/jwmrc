@@ -13,9 +13,9 @@
    <Include>$HOME/.jwm/menu</Include>
 
    <Separator/>
-   <Menu label="Odhlásiť">
-     <Restart label="Reštartovať JWM" icon="restart.png"/>
-     <Program label="Odhlásiť">desktop-session-exit</Program>
+   <Menu label="Odhlásiť" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Reštartovať JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Program label="Odhlásiť" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">desktop-session-exit</Program>
    </Menu>
 </RootMenu>
 

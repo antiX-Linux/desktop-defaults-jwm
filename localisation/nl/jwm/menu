@@ -1,34 +1,46 @@
 <JWM>
     <Program label="Terminalvenster" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png">desktop-defaults-run -t</Program>
-    <Program label="Persoonlijke Map" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png">desktop-defaults-run -fm</Program>
+    <Program label="Bestandsbeheerder" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png">desktop-defaults-run -fm</Program>
     <Separator/>
     <Program label="Internet-browser" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png">desktop-defaults-run -b</Program>
     <Program label="Editor" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png">desktop-defaults-run -te</Program>
     <Separator/>
-    <Menu label="Personal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
+    <Menu label="Persoonlijk" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
         <Include>$HOME/.jwm/personal</Include>
     </Menu>
     <Menu label="Toepassingen" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Menu label="Update Menus" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-settings-default-applications.png">
-        <Program label="Update Personal Menu" icon="g/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --menu-file='/etc/xdg/menus/TCM-MENU.menu' --write-out --write-out-file='personal'</Program>
-        <Program label="Update Local App Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out</Program>
-        <Program label="Update Global App Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
+    <Menu label="Terminal Apps" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png">
+        <Menu label="Multimedia" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-multimedia.png">
+            <Program label="CD/DVD Writer" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/media-cdrom.png">desktop-defaults-run -t cdw</Program>
+            <Program label="Music Player" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/rhythmbox.png">desktop-defaults-run -t mocp</Program>
+        </Menu>
+        <Menu label="Network" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-internet.png">
+            <Program label="Alpine Mail" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/evolution.png">desktop-defaults-run -t alpine</Program>
+            <Program label="Browser elinks" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png">desktop-defaults-run -t elinks http://antiX.mepis.com</Program>
+            <Program label="Irssi Chat" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/xchat.png">desktop-defaults-run -t irssi</Program>
+            <Program label="RSS/Atom Reader" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/liferea.png">desktop-defaults-run -t newsbeuter -r</Program>
+            <Program label="rTorrent" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/deluge.png">desktop-defaults-run -t rtorrent</Program>
+        </Menu>
+        <Menu label="Office" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-office.png">
+            <Program label="Organizer" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/evolution-calendar.png">desktop-defaults-run -t calcurse</Program>
+            <Program label="Word" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png">desktop-defaults-run -t wordgrinder</Program>
+        </Menu>
     </Menu>
+    <Program label="Menu Updaten" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     <Separator/>
     <Menu label="Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
-        <Menu label="Alternate Desktops" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+        <Menu label="Alternatieve Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
             <Include>/usr/share/desktop-session/wm-menus/jwm-wm-menu</Include>
         </Menu>
         <Separator/>
-        <Program label="Add Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">add-desktop</Program>
-        <Program label="Wallpaper" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-desktop-wallpaper.png">wallpaper.py</Program>
+        <Program label="Voeg Desktop toe" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">add-desktop</Program>
+        <Program label="Desktopachtergrond" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-desktop-wallpaper.png">wallpaper.py</Program>
         <Program label="GTK Theme" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-desktop-theme.png">lxappearance</Program>
-        <Program label="Desktop Defaults" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-settings-default-applications.png">desktop-defaults-set</Program>
-        <Program label="Window Manager" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/preferences-system-windows.png">edit-wm-settings</Program>
-        <Program label="Session Settings" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">desktop-defaults-run -te ~/.desktop-session/desktop-session.conf</Program>
-        <Program label="Session Settings (Global)" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">desktop-defaults-run -r -te /etc/desktop-session/desktop-session.conf</Program>
+        <Program label="Desktop standaardinstellingen" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-settings-default-applications.png">desktop-defaults-set</Program>
+        <Program label="Sessie instellingen" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">desktop-defaults-run -te ~/.desktop-session/desktop-session.conf</Program>
+        <Program label="Algemene sessie instellingen" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">desktop-defaults-run -r -te /etc/desktop-session/desktop-session.conf</Program>
         <Separator/>
         <Program label="RoxPanel aan/uit" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
         <Program label="Conky aan/uit" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png">conkytoggle.sh</Program>
@@ -37,14 +49,11 @@
     <Menu label="Gereedschap" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-system.png">
         <Program label="Nano" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-terminal.png">desktop-defaults-run -t nano</Program>
         <Program label="Ted" icon="/usr/share/Ted/Ted.png">/usr/bin/Ted</Program>
-        <Program label="Rox Filer" icon="/usr/share/icons/antiX/rox-filer.png">rox</Program>
-        <Program label="SpaceFM" icon="/usr/share/icons/hicolor/48x48/apps/spacefm.png">spacefm</Program>
         <Program label="Zoeken" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/48/spacefm-find.png">spacefm --find-files</Program>
         <Program label="MC File Manager" icon="/usr/share/icons/hicolor/64x64/apps/MidnightCommander.png">desktop-defaults-run -t mc</Program>
         <Program label="Afschieten" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png">xkill</Program>
-        <Program label="Process Viewer" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/htop.png">desktop-defaults-run -t htop</Program>
-        <Program label="System Information" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/computer.png">inxi-gui</Program>
-        <Program label="Add .desktop Files" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-edit.png">ktsuss adddesktop.sh</Program>
+        <Program label="Process bekijken" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/htop.png">desktop-defaults-run -t htop</Program>
+        <Program label="Systeem-informatie" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/computer.png">inxi-gui</Program>
     </Menu>
     <Program label="Controle Centrum" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png">antixcc.sh</Program>
     <Separator/>
@@ -53,32 +62,31 @@
             <Program label="antiX FAQ">dillo /usr/share/antiX/FAQ/index.html</Program>
             <Program label="antiX-live How-To">dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html</Program>
             <Separator/>
-            <Program label="Rox Handleiding">desktop-defaults-run -b http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
+            <Program label="Rox Handleiding">dillo http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
         </Menu>
         <Separator/>
         <Menu label="Fluxbox" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Documentatie">desktop-defaults-run -b http://fluxbox.sourceforge.net/docbook/en/html/</Program>
-            <Program label="Fluxbox FAQ">desktop-defaults-run -b http://fluxbox-wiki.org/index.php/Faqs</Program>
-            <Program label="Fluxbox Wiki">desktop-defaults-run -b http://fluxbox-wiki.org/index.php/Fluxbox-wiki</Program>
+            <Program label="Documentatie">dillo http://fluxbox.sourceforge.net/docbook/en/html/</Program>
+            <Program label="Fluxbox FAQ">dillo http://fluxbox-wiki.org/index.php/Faqs</Program>
+            <Program label="Fluxbox Wiki">dillo http://fluxbox-wiki.org/index.php/Fluxbox-wiki</Program>
             <Separator/>
-            <Program label="Arch Wiki">desktop-defaults-run -b http://wiki.archlinux.org/index.php/Fluxbox</Program>
+            <Program label="Arch Wiki">dillo http://wiki.archlinux.org/index.php/Fluxbox</Program>
         </Menu>
         <Menu label="IceWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="IceWM FAQ">desktop-defaults-run -b http://www.icewm.org/FAQ/</Program>
-            <Program label="IceWM Handleiding ">desktop-defaults-run -b http://www.icewm.org/manual/</Program>
+            <Program label="IceWM FAQ">dillo http://www.icewm.org/FAQ/</Program>
+            <Program label="IceWM Handleiding ">dillo http://www.icewm.org/manual/</Program>
             <Separator/>
-            <Program label="OSNews">desktop-defaults-run -b http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/</Program>
+            <Program label="OSNews">dillo http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/</Program>
         </Menu>
         <Menu label="JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Homepage">desktop-defaults-run -b http://joewing.net/programs/jwm/</Program>
-            <Program label="Arch Wiki">desktop-defaults-run -b https://wiki.archlinux.org/index.php/JWM</Program>
-            <Program label="WM - Puppy-Linux">desktop-defaults-run -b http://puppy.b0x.me/wiki/doku.php?id=jwm</Program>
+            <Program label="Homepage">dillo http://joewing.net/programs/jwm/</Program>
+            <Program label="Arch Wiki">dillo https://wiki.archlinux.org/index.php/JWM</Program>
+            <Program label="WM - Puppy-Linux">dillo http://puppy.b0x.me/wiki/doku.php?id=jwm</Program>
         </Menu>
         <Separator/>
         <Menu label="Toepassingen" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Firewall">desktop-defaults-run -b https://help.ubuntu.com/community/Gufw</Program>
-            <Program label="mtPaint">desktop-defaults-run -b http://mtpaint.sourceforge.net/handbook/</Program>
-            <Program label="Partimage">desktop-defaults-run -b http://www.partimage.org/Partimage-manual_Usage</Program>
+            <Program label="Firewall">dillo https://help.ubuntu.com/community/Gufw</Program>
+            <Program label="Partimage">dillo http://www.partimage.org/Partimage-manual_Usage</Program>
         </Menu>
         <Menu label="Handleidingen" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Backup">desktop-defaults-run -t man luckybackup</Program>
@@ -91,6 +99,7 @@
             <Program label="Torrent">desktop-defaults-run -t man rtorrent</Program>
         </Menu>
     </Menu>
+    <Program label="Uitvoeren" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
     <Program label="Installeren" icon="/usr/share/icons/msystem.png">gksu antixsources.sh</Program>

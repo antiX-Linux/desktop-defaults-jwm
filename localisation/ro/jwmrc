@@ -13,9 +13,9 @@
    <Include>$HOME/.jwm/menu</Include>
 
    <Separator/>
-   <Menu label="Ieșire">
-     <Restart label="Repornire JWM" icon="restart.png"/>
-     <Program label="Ieșire">desktop-session-exit</Program>
+   <Menu label="Ieșire" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Repornire JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Program label="Ieșire" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">desktop-session-exit</Program>
    </Menu>
 </RootMenu>
 

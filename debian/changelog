@@ -1,3 +1,24 @@
+desktop-defaults-jwm-antix (0.2.6) unstable; urgency=low
+ 
+  * Trimmed menu 
+
+ -- anticapitalista <antiX@operamail.com>  Mon, 12 Jan 2015 14:58:00 +0200
+
+
+desktop-defaults-jwm-antix (0.2.5) unstable; urgency=low
+ 
+  * Edits to keys file
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 09 Jan 2015 20:41:00 +0200
+
+
+desktop-defaults-jwm-antix (0.2.4) unstable; urgency=low
+ 
+  * Added icons to .jwmrc file.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 28 Dec 2014 17:35:00 +0200
+
+
 desktop-defaults-jwm-antix (0.2.3) unstable; urgency=low
  
   * Added new icon set to menu files.

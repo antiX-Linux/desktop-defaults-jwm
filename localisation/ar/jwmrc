@@ -13,9 +13,9 @@
    <Include>$HOME/.jwm/menu</Include>
 
    <Separator/>
-   <Menu label="تسجيل الخروج...">
-     <Restart label="Restart JWM" icon="restart.png"/>
-     <Program label="تسجيل الخروج">desktop-session-exit</Program>
+   <Menu label="تسجيل الخروج..." icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">
+     <Restart label="Restart JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/view-refresh.png"/>
+     <Program label="تسجيل الخروج" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png">desktop-session-exit</Program>
    </Menu>
 </RootMenu>
 

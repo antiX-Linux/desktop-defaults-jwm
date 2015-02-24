@@ -52,6 +52,13 @@
 <Key mask="CA" key="c">exec: antixcc.sh</Key>
 <Key mask="CA" key="v">exec: desktop-defaults-run -v</Key>
 <Key mask="CA" key="b">exec: desktop-defaults-run -b</Key>
-<Key mask="CA" key="n">exec: exec: speedcrunch</Key>
+<Key mask="CA" key="n">exec: speedcrunch</Key>
+
+<!-- <Key key="F1">exec: desktop-defaults-run -t</Key>
+<!-- <Key key="F2">exec: gexec</Key>
+<!-- <Key key="F3">exec: desktop-defaults-run -fm</Key>
+<!-- <Key key="F4">exec: desktop-defaults-run -b</Key>
+<!-- <Key key="F5">exec: antixcc.sh</Key>
+<!-- <Key key="F6">exec: antixscreenshot.sh</Key>
 
 </JWM>
