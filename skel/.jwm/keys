@@ -61,4 +61,16 @@
 <!-- <Key key="F5">exec: antixcc.sh</Key>
 <!-- <Key key="F6">exec: antixscreenshot.sh</Key>
 
+<!--Wingrid-->
+<Key mask="C" key="1">exec:wingrid-left.sh</Key>
+<Key mask="C" key="2">exec:wingrid-right.sh</Key>
+<Key mask="C" key="3">exec:wingrid-top.sh</Key>
+<Key mask="C" key="4">exec:wingrid-bottom.sh</Key>
+<Key mask="C" key="5">exec:wingrid-topleft.sh</Key>
+<Key mask="C" key="6">exec:wingrid-topright.sh</Key>
+<Key mask="C" key="7">exec:wingrid-bottomleft.sh</Key>
+<Key mask="C" key="8">exec:wingrid-bottomright.sh</Key>
+<Key mask="C" key="9">exec:wingrid-maximize.sh</Key>
+<Key mask="C" key="0">exec:wingrid-close.sh</Key>
+
 </JWM>

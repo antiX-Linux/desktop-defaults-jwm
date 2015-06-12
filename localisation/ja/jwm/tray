@@ -6,12 +6,7 @@
 
    <!-- Additional TrayButton attributes: label, icon, popup -->
    <TrayButton label=" antiX  ">root:1</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png" popup="ホームフォルダ">exec: desktop-defaults-run -fm</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png" popup="ターミナル">exec: desktop-defaults-run -t</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png" popup="ブラウザ">exec: desktop-defaults-run -b</TrayButton> 
-   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png" popup="コントロールセンター">exec: antixcc.sh</TrayButton>
    <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png" popup="リムバーブルデバイスを外す">exec: unplugdrive.sh</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png" popup="終了">exec: desktop-session-exit</TrayButton>
    
    <!-- Additional TaskList attribute: maxwidth -->
    <TaskList maxwidth="125"/>

@@ -1,3 +1,46 @@
+desktop-defaults-jwm-antix (0.3.2) unstable; urgency=low
+ 
+  * Alternate renamed to Other in menu
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 30 May 2015 12:19:00 +0200
+
+
+desktop-defaults-jwm-antix (0.3.1) unstable; urgency=low
+
+  * wingrid typo fixes to keys.
+  * new menu structure 
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 15 Apr 2015 13:20:00 +0200
+
+
+desktop-defaults-jwm-antix (0.3.0) unstable; urgency=low
+
+  * wingrid added to keys file
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 15 Apr 2015 13:20:00 +0200
+
+
+desktop-defaults-jwm-antix (0.2.9) unstable; urgency=low
+
+  * Set up light and dark theme option for live boot.
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 09 Apr 2015 21:53:00 +0200
+
+
+desktop-defaults-jwm-antix (0.2.8) unstable; urgency=low
+
+  * Removed toram-eject, persist-config, setxkbmap from startup
+
+ -- anticapitalista <antiX@operamail.com>  Tue, 31 Mar 2015 13:14:00 +0200
+
+
+desktop-defaults-jwm-antix (0.2.7) unstable; urgency=low
+ 
+  * Removed icewm and fluxbox links from menus
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 11 Mar 2015 19:52:00 +0200
+
+
 desktop-defaults-jwm-antix (0.2.6) unstable; urgency=low
  
   * Trimmed menu 
