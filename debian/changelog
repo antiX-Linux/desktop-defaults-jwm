@@ -1,3 +1,10 @@
+desktop-defaults-jwm-antix (0.3.3) unstable; urgency=low
+ 
+  * Update-menu also calls jwm restart
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 13 Jun 2015 12:54:00 +0200
+
+
 desktop-defaults-jwm-antix (0.3.2) unstable; urgency=low
  
   * Alternate renamed to Other in menu

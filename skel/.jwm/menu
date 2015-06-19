@@ -11,7 +11,7 @@
     <Menu label="Applications" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Program label="Update Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
+    <Program label="Update Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global && jwm -restart</Program>
     <Separator/>
     <Menu label="Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
         <Menu label="Other Desktops" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
