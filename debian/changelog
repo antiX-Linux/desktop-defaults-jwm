@@ -1,3 +1,11 @@
+desktop-defaults-jwm-antix (0.3.4) unstable; urgency=low
+ 
+  * Personal in menu calls antiX Videos
+  * Added antiX Video to Help section of menu
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 27 Jun 2015 15:06:00 +0200
+
+
 desktop-defaults-jwm-antix (0.3.3) unstable; urgency=low
  
   * Update-menu also calls jwm restart

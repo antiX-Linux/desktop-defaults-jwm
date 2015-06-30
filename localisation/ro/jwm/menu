@@ -25,6 +25,7 @@
     <Separator/>
     <Menu label="Ajutor" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png">
         <Menu label="antiX" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
+            <Program label="antiX Video">dillo /usr/share/antiX/antix_help_videos.html</Program>
             <Program label="Întrebări frecvente">dillo /usr/share/antiX/FAQ/index.html</Program>
             <Program label="Live Ghid">dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html</Program>
             <Separator/>
