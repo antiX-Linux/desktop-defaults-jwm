@@ -56,5 +56,5 @@
     <Program label="Kulgema" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
-    <Program label="Paigalda" icon="/usr/share/icons/msystem.png">su-to-root -X -p demo -c antixsources.sh</Program>
+    <Program label="Paigalda" icon="/usr/share/icons/msystem.png">gksu antixsources.sh</Program>
 </JWM>

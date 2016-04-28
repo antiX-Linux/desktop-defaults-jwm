@@ -2,58 +2,59 @@
 <!-- shades of grey -->
 
 <WindowStyle>
-<Font antialias="false">smoothansi</Font>
-<Width>4</Width>
-<Height>20</Height>
-<Active>
-<Text>white</Text>
-<Title>grey33:grey66</Title>
-<Outline>grey22</Outline>
-</Active>
-<Inactive>
-<Text>grey44</Text>
-<Title>grey22:black</Title>
-<Outline>black</Outline>
-</Inactive>
+	<Font antialias="false">smoothansi</Font>
+	<Width>4</Width>
+	<Height>20</Height>
+	<Active>
+		<Text>white</Text>
+		<Title>grey33:grey66</Title>
+	<Outline>grey22</Outline>
+	</Active>
+	<Inactive>
+		<Text>grey44</Text>
+		<Title>grey22:black</Title>
+	<Outline>black</Outline>
+	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
-<Font antialias="false">smoothansi</Font>
-<ActiveForeground>white</ActiveForeground>
-<ActiveBackground>grey33:grey66</ActiveBackground>
-<Foreground>grey44</Foreground>
-<Background>grey22:black</Background>
+	<Font antialias="false">smoothansi</Font>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>grey33:grey66</ActiveBackground>
+	<Foreground>grey44</Foreground>
+	<Background>grey22:black</Background>
 </TaskListStyle>
 
 <!-- Additional TrayStyle attribute: insert -->
 <TrayStyle>
-<Font antialias="false">smoothansi</Font>
-<Background>grey33</Background>
-<Foreground>white</Foreground>
+	<Font antialias="false">smoothansi</Font>
+	<Background>grey33</Background>
+	<Foreground>white</Foreground>
 </TrayStyle>
 
 <PagerStyle>
-<Outline>darkred</Outline>
-<Foreground>grey44</Foreground>
-<Background>grey22</Background>
-<ActiveForeground>grey55</ActiveForeground>
-<ActiveBackground>grey66</ActiveBackground>
+	<Outline>darkred</Outline>
+	<Foreground>grey44</Foreground>
+	<Background>grey22</Background>
+	<ActiveForeground>grey55</ActiveForeground>
+	<ActiveBackground>grey66</ActiveBackground>
 </PagerStyle>
 
 <MenuStyle>
-<Font antialias="false">smoothansi</Font>
-<Foreground>grey11</Foreground>
-<Background>grey44</Background>
-<ActiveForeground>white</ActiveForeground>
-<ActiveBackground>grey33:grey66</ActiveBackground>
+	<Font antialias="false">smoothansi</Font>
+	<Foreground>grey11</Foreground>
+	<Background>grey44</Background>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>grey33:grey66</ActiveBackground>
 </MenuStyle>
 
 <PopupStyle>
-<Font antialias="false">smoothansi</Font>
-<Outline>darkred</Outline>
-<Foreground>black</Foreground>
-<Background>grey66</Background>
+	<Font antialias="false">smoothansi</Font>
+	<Outline>darkred</Outline>
+	<Foreground>black</Foreground>
+	<Background>grey66</Background>
 </PopupStyle>
 
 <!-- end shade of grey color scheme -->
+
 </JWM>

@@ -4,13 +4,11 @@
 	<Font>DejaVu Sans 12:bold</Font>
 	<Width>5</Width>
 	<Height>22</Height>
-	
 	<Active>
 		<Text>white</Text>
 		<Title>#222222:#777777</Title>
 		<Outline>#444444</Outline>
 	</Active>
-
 	<Inactive>
 		<Text>#555555</Text>
 		<Title>#777777:#bbbbbb</Title>

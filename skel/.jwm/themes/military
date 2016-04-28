@@ -1,0 +1,63 @@
+<JWM>
+
+<!-- military -->
+<WindowStyle>
+	<Font>Terminus Bold-14</Font>
+	<Width>5</Width>
+	<Height>22</Height>
+	<Active>
+		<Text>white</Text>
+		<Title>olive drab:#a3853f</Title>
+	<Outline>olive</Outline>
+	</Active>
+	<Inactive>
+		<Text>black</Text>
+		<Title>#a3853f:olive drab</Title>
+	<Outline>olive</Outline>
+	</Inactive>
+</WindowStyle>
+
+<TaskListStyle>
+	<Font>DejaVu Sans 12</Font>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>olive drab</ActiveBackground>
+	<Foreground>black</Foreground>
+	<Background>#a3853f</Background>
+</TaskListStyle>
+
+<TrayStyle>
+	<Font>DejaVu Sans 11</Font>
+	<Background>olive</Background>
+	<Foreground>black</Foreground>
+</TrayStyle>
+
+<ClockStyle>
+	<Font>Terminus Bold-16</Font>
+	<Foreground>black</Foreground>
+	<Background>olive</Background>
+</ClockStyle>
+
+<PagerStyle>
+	<Outline>black</Outline>
+	<Foreground>#a3853f</Foreground>
+	<Background>olive drab</Background>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>black</ActiveBackground>
+</PagerStyle>
+
+<MenuStyle>
+	<Font>DejaVu Sans 11</Font>
+	<Foreground>black</Foreground>
+	<Background>olive drab</Background>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>#a3853f</ActiveBackground>
+</MenuStyle>
+
+<PopupStyle enabled="true">
+	<Font>DejaVu Sans 10</Font>
+	<Outline>black</Outline>
+	<Foreground>white</Foreground>
+	<Background>olive drab</Background>
+</PopupStyle>
+
+</JWM>

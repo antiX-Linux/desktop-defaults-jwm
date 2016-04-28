@@ -24,7 +24,6 @@
 	<Background>#C72628:#621314</Background>
 	<ActiveForeground>#ffffff</ActiveForeground>
 	<ActiveBackground>#621314:#DD1D16</ActiveBackground>
-
 </TaskListStyle>
 
 <TrayStyle>
@@ -41,11 +40,10 @@
 	<ActiveBackground>#AF2323</ActiveBackground>
 </PagerStyle>
 
-
 <MenuStyle>
 	<Font>DejaVu Sans 13</Font>
-		<Foreground>#000000</Foreground>
-		<Background>#ece9d8</Background>
+	<Foreground>#000000</Foreground>
+	<Background>#ece9d8</Background>
 	<ActiveForeground>#ffffff</ActiveForeground>
 	<ActiveBackground>#8D0D13</ActiveBackground>
 </MenuStyle>

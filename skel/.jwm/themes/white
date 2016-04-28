@@ -13,7 +13,7 @@
 	</Active>
 	<Inactive>
 		<Text>#000000</Text>
-	     <Title>#A2C6E7:#4B82B7</Title>
+		<Title>#A2C6E7:#4B82B7</Title>
        	<Outline>black</Outline>
 	</Inactive>
 </WindowStyle>
@@ -43,7 +43,6 @@
 	<!-- frame of selected desktop...bg[SELECTED] -->
 	<ActiveBackground>#5598d7</ActiveBackground>
 </PagerStyle>
-
 
 <MenuStyle>
 	<Font>DejaVu Sans 12</Font>

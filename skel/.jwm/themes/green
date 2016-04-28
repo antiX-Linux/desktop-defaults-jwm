@@ -1,60 +1,60 @@
 <JWM>
 
 <WindowStyle>
-    <Font>Sans-12</Font>
-    <Width>5</Width>
-    <Height>20</Height>     
-    <Active>
-       <Text>#3C5505</Text>
-       <Title>#74A604:#FEFDF2</Title>
-       <Outline>#3C5505</Outline>
-    </Active>
-    <Inactive>
-       <Text>#517208</Text>
-       <Title>#FEFDF2</Title>         
-       <Outline>#517208</Outline>
-    </Inactive>
+	<Font>Sans-12</Font>
+    	<Width>5</Width>
+    	<Height>20</Height>     
+    	<Active>
+       		<Text>#3C5505</Text>
+       		<Title>#74A604:#FEFDF2</Title>
+       	<Outline>#3C5505</Outline>
+    	</Active>
+    	<Inactive>
+       		<Text>#517208</Text>
+       		<Title>#FEFDF2</Title>         
+       	<Outline>#517208</Outline>
+    	</Inactive>
 </WindowStyle> 
 
 <TaskListStyle>
-<Font>-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*</Font>
-<ActiveForeground>#3C5505</ActiveForeground>
-<ActiveBackground>#74A604:#FEFDF2</ActiveBackground>
-<Background>#FEFDF2</Background>
-<Foreground>#517208</Foreground>
+	<Font>-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*</Font>
+	<ActiveForeground>#3C5505</ActiveForeground>
+	<ActiveBackground>#74A604:#FEFDF2</ActiveBackground>
+	<Background>#FEFDF2</Background>
+	<Foreground>#517208</Foreground>
 </TaskListStyle>
 
-	<!-- TRAY PROPERTIES -->
+<!-- TRAY PROPERTIES -->
 
-	<TrayStyle>
-		<Font>-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*</Font>
-		<Foreground>#517208</Foreground>
-		<Background>#FEFDF2</Background>
-	</TrayStyle>
+<TrayStyle>
+	<Font>-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*</Font>
+	<Foreground>#517208</Foreground>
+	<Background>#FEFDF2</Background>
+</TrayStyle>
 
-	<!-- PAGER PROPERTIES -->
+<!-- PAGER PROPERTIES -->
 
-	<PagerStyle>
-		<Outline>#517208</Outline>
-		<Foreground>#517208</Foreground>
-		<Background>#FEFDF2</Background>
-		<ActiveForeground>#517208</ActiveForeground>
-		<ActiveBackground>#FEFDF2</ActiveBackground>
-	</PagerStyle>
+<PagerStyle>
+	<Outline>#517208</Outline>
+	<Foreground>#517208</Foreground>
+	<Background>#FEFDF2</Background>
+	<ActiveForeground>#517208</ActiveForeground>
+	<ActiveBackground>#FEFDF2</ActiveBackground>
+</PagerStyle>
 
-	<PopupStyle>
-		<Font>-adobe-helvetica-medium-r-*-*-*-140-*-*-*-*-*-*</Font>
-		<Outline>#517208</Outline>
-		<Foreground>#517208</Foreground>
-		<Background>#FEFDF2</Background>
-	</PopupStyle>
+<PopupStyle>
+	<Font>-adobe-helvetica-medium-r-*-*-*-140-*-*-*-*-*-*</Font>
+	<Outline>#517208</Outline>
+	<Foreground>#517208</Foreground>
+	<Background>#FEFDF2</Background>
+</PopupStyle>
 
-	<MenuStyle>
-		<Font>-adobe-helvetica-medium-r-*-*-*-140-*-*-*-*-*-*</Font>
-		<Foreground>#517208</Foreground>
-		<Background>#FEFDF2</Background>
-		<ActiveForeground>#3C5505</ActiveForeground>
-		<ActiveBackground>#74A604:#FEFDF2</ActiveBackground>
-	</MenuStyle>
+<MenuStyle>
+	<Font>-adobe-helvetica-medium-r-*-*-*-140-*-*-*-*-*-*</Font>
+	<Foreground>#517208</Foreground>
+	<Background>#FEFDF2</Background>
+	<ActiveForeground>#3C5505</ActiveForeground>
+	<ActiveBackground>#74A604:#FEFDF2</ActiveBackground>
+</MenuStyle>
 	
 </JWM>

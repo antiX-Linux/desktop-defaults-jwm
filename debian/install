@@ -1,4 +1,2 @@
-skel/.[a-zA-Z]*   /etc/skel
-changelog.gz      /usr/share/doc/desktop-defaults-jwm-antix 
-copyright         /usr/share/doc/desktop-defaults-jwm-antix 
-localisation/*    /usr/share/antiX/localisation
+skel/.[a-zA-Z]*   etc/skel
+localisation/*    usr/share/antiX/localisation

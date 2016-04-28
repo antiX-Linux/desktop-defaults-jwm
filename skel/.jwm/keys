@@ -44,7 +44,7 @@
 <Key mask="C4" key="f">exec: desktop-defaults-run -r -fm </Key>
 <Key mask="CA" key="g">exec: desktop-defaults-run -te</Key>
 <Key mask="C4" key="g">exec: desktop-defaults-run -r -te</Key>
-<Key mask="CA" key="h">exec: desktop-defaults-run -b file://usr/share/antix/help-docs/index.html</Key>
+<Key mask="CA" key="h">exec: desktop-defaults-run -b file:/usr/share/antiX/FAQ/index.html</Key>
 <Key mask="CA" key="k">exec: desktop-session-exit</Key>
 <Key mask="CA" key="l">exec: slock</Key>
 <Key mask="CA" key="z">exec: grsync</Key>

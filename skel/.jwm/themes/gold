@@ -3,61 +3,57 @@
 <!-- new for jwm 2.0, replaces borderstyle above -->
 
 <WindowStyle>
-
-<Font>DejaVu Sans 9:bold</Font>
-<Width>4</Width
-<Height>20</Height>
-
-<Active>
-<Text>gold</Text>
-<Title>gray50:lightsteelblue</Title>
-<Outline>black</Outline>
-</Active>
-
-<Inactive>
-<Text>gray60</Text>
-<Title>gray50:black</Title>
-<Outline>black</Outline>
-</Inactive>
-
+	<Font>DejaVu Sans 9:bold</Font>
+	<Width>4</Width
+	<Height>20</Height>
+	<Active>
+		<Text>gold</Text>
+		<Title>gray50:lightsteelblue</Title>
+	<Outline>black</Outline>
+	</Active>
+	<Inactive>
+		<Text>gray60</Text>
+		<Title>gray50:black</Title>
+	<Outline>black</Outline>
+	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
-<Font>DejaVu Sans 12:bold</Font>
-<ActiveForeground>black</ActiveForeground>
-<ActiveBackground>orange:yellow</ActiveBackground>
-<Foreground>gray60</Foreground>
-<Background>gray50:black</Background>
+	<Font>DejaVu Sans 12:bold</Font>
+	<ActiveForeground>black</ActiveForeground>
+	<ActiveBackground>orange:yellow</ActiveBackground>
+	<Foreground>gray60</Foreground>
+	<Background>gray50:black</Background>
 </TaskListStyle>
 
 <!-- Additional TrayStyle attribute: insert -->
 <TrayStyle>
-<Font>DejaVu Sans 12:bold</Font>
-<Background>gray10</Background>
-<Foreground>white</Foreground>
+	<Font>DejaVu Sans 12:bold</Font>
+	<Background>gray10</Background>
+	<Foreground>white</Foreground>
 </TrayStyle>
 
 <PagerStyle>
-<Outline>black</Outline>
-<Foreground>gray</Foreground>
-<Background>gray20</Background>
-<ActiveForeground>#0E58B3</ActiveForeground>
-<ActiveBackground>gray20</ActiveBackground>
+	<Outline>black</Outline>
+	<Foreground>gray</Foreground>
+	<Background>gray20</Background>
+	<ActiveForeground>#0E58B3</ActiveForeground>
+	<ActiveBackground>gray20</ActiveBackground>
 </PagerStyle>
 
 <MenuStyle>
-<Font>DejaVu Sans 12:bold</Font>
-<Foreground>white</Foreground>
-<Background>gray20</Background>
-<ActiveForeground>black</ActiveForeground>
-<ActiveBackground>yellow:orange</ActiveBackground>
+	<Font>DejaVu Sans 12:bold</Font>
+	<Foreground>white</Foreground>
+	<Background>gray20</Background>
+	<ActiveForeground>black</ActiveForeground>
+	<ActiveBackground>yellow:orange</ActiveBackground>
 </MenuStyle>
 
 <PopupStyle>
-<Font>DejaVu Sans 10</Font>
-<Outline>black</Outline>
-<Foreground>black</Foreground>
-<Background>ivory</Background>
+	<Font>DejaVu Sans 10</Font>
+	<Outline>black</Outline>
+	<Foreground>black</Foreground>
+	<Background>ivory</Background>
 </PopupStyle> 
 
 </JWM>

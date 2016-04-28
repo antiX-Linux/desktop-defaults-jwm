@@ -1,3 +1,30 @@
+desktop-defaults-jwm-antix (0.3.8) unstable; urgency=medium
+
+  * Bugfix of gksu antixsources.sh in default menu 
+
+ -- anticapitalista <antix@operamail.com>  Mon, 11 Apr 2016 16:44:18 +0300
+
+desktop-defaults-jwm-antix (0.3.7) unstable; urgency=medium
+
+  * Use gksu to open antixsources.sh 
+
+ -- anticapitalista <antix@operamail.com>  Sun, 03 Apr 2016 13:38:36 +0300
+
+desktop-defaults-jwm-antix (0.3.6) unstable; urgency=low
+ 
+  * 3 new themes by cwilliams (coffee_cream, military, pastel)
+  * removed cobalt theme
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 09 Mar 2016 15:20:00 +0200
+
+
+desktop-defaults-jwm-antix (0.3.5) unstable; urgency=low
+ 
+  * Fixed keybind assignment file to open FAQ
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 15 Jan 2016 18:13:00 +0200
+
+
 desktop-defaults-jwm-antix (0.3.4) unstable; urgency=low
  
   * Personal in menu calls antiX Videos

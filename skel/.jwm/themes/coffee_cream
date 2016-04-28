@@ -1,0 +1,62 @@
+<JWM>
+
+<!-- coffee.cream -->
+<WindowStyle>
+	<Font>Terminus Bold-14</Font>
+	<Width>5</Width>
+	<Height>24</Height>
+	<Active>
+		<Text>white</Text>
+		<Title>#6F4E37:#DEB887</Title>
+	<Outline>#7B3F00</Outline>
+	</Active>
+	<Inactive>
+		<Text>white</Text>
+		<Title>#DEB887:#6F4E37</Title>
+	<Outline>#DEB887</Outline>
+	</Inactive>
+</WindowStyle>
+
+<TaskListStyle>
+	<Font>Terminus Bold-12</Font>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>#6F4E37:#DEB887</ActiveBackground>
+	<Foreground>black</Foreground>
+	<Background>#DEB887:#6F4E37</Background>
+</TaskListStyle>
+
+<TrayStyle>
+	<Font>Terminus Bold-16</Font>
+	<Background>#DEB887</Background>
+	<Foreground>black</Foreground>
+</TrayStyle>
+
+<ClockStyle>
+	<Font>Terminus Bold-16</Font>
+	<Foreground>black</Foreground>
+</ClockStyle>
+
+<PagerStyle>
+	<Outline>black</Outline>
+	<Foreground>black</Foreground>
+	<Background>#6F4E37</Background>
+	<ActiveForeground>black</ActiveForeground>
+	<ActiveBackground>#DEB887</ActiveBackground>
+</PagerStyle>
+
+<MenuStyle>
+	<Font>Terminus Bold-14</Font>
+	<Foreground>black</Foreground>
+	<Background>#DEB887</Background>
+	<ActiveForeground>white</ActiveForeground>
+	<ActiveBackground>#DEB887:#6F4E37</ActiveBackground>
+</MenuStyle>
+
+<PopupStyle enabled="true">
+	<Font>Terminus Bold-11</Font>
+	<Outline>black</Outline>
+	<Foreground>black</Foreground>
+	<Background>wheat</Background>
+</PopupStyle>
+
+</JWM>
