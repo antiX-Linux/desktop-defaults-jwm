@@ -1,3 +1,9 @@
+desktop-defaults-jwm-antix (0.3.9) unstable; urgency=medium
+
+  * Use sudo to open antixsources.sh 
+
+ -- anticapitalista <antix@operamail.com>  Fri, 29 Apr 2016 13:03:45 +0300
+
 desktop-defaults-jwm-antix (0.3.8) unstable; urgency=medium
 
   * Bugfix of gksu antixsources.sh in default menu 

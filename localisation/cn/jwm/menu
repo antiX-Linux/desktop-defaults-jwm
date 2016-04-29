@@ -56,5 +56,5 @@
     <Program label="运行" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
-    <Program label="安装" icon="/usr/share/icons/msystem.png">gksu antixsources.sh</Program>
+    <Program label="安装" icon="/usr/share/icons/msystem.png">sudo antixsources.sh</Program>
 </JWM>
