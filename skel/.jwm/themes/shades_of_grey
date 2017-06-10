@@ -6,46 +6,61 @@
 	<Width>4</Width>
 	<Height>20</Height>
 	<Active>
-		<Text>white</Text>
-		<Title>grey33:grey66</Title>
+		<Foreground>white</Foreground>
+		<Background>grey33:grey66</Background>
 	<Outline>grey22</Outline>
 	</Active>
 	<Inactive>
-		<Text>grey44</Text>
-		<Title>grey22:black</Title>
+		<Foreground>grey44</Foreground>
+		<Background>grey22:black</Background>
 	<Outline>black</Outline>
 	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
 	<Font antialias="false">smoothansi</Font>
-	<ActiveForeground>white</ActiveForeground>
-	<ActiveBackground>grey33:grey66</ActiveBackground>
+	<Active>
+	<Foreground>white</Foreground>
+	<Background>grey33:grey66</Background>
+	</Active>
+	<Inactive>
 	<Foreground>grey44</Foreground>
 	<Background>grey22:black</Background>
+	</Inactive>
 </TaskListStyle>
 
-<!-- Additional TrayStyle attribute: insert -->
 <TrayStyle>
 	<Font antialias="false">smoothansi</Font>
 	<Background>grey33</Background>
 	<Foreground>white</Foreground>
 </TrayStyle>
 
+<ClockStyle>
+	<Font antialias="false">smoothansi</Font>
+	<Foreground>grey11</Foreground>
+	<Background>grey44</Background>
+</ClockStyle>
+
 <PagerStyle>
 	<Outline>darkred</Outline>
 	<Foreground>grey44</Foreground>
 	<Background>grey22</Background>
-	<ActiveForeground>grey55</ActiveForeground>
-	<ActiveBackground>grey66</ActiveBackground>
+	<Active>
+	<Foreground>grey55</Foreground>
+	<Background>grey66</Background>
+	</Active>
 </PagerStyle>
 
 <MenuStyle>
 	<Font antialias="false">smoothansi</Font>
 	<Foreground>grey11</Foreground>
 	<Background>grey44</Background>
-	<ActiveForeground>white</ActiveForeground>
-	<ActiveBackground>grey33:grey66</ActiveBackground>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>white</Foreground>
+	<Background>grey33:grey66</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
 </MenuStyle>
 
 <PopupStyle>
@@ -54,7 +69,5 @@
 	<Foreground>black</Foreground>
 	<Background>grey66</Background>
 </PopupStyle>
-
-<!-- end shade of grey color scheme -->
 
 </JWM>

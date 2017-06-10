@@ -7,23 +7,27 @@
 	<Width>2</Width>
 	<Height>16</Height>
 	<Active>
-		<Text>white</Text>
-		<Title>darkorange:grey13</Title>
+		<Foreground>white</Foreground>
+		<Background>white:grey13</Background>
 	<Outline>dark goldenrod</Outline>
 	</Active>
 	<Inactive>
-		<Text>white</Text>
-		<Title>grey20:grey0</Title>
+		<Foreground>white</Foreground>
+		<Background>grey20:grey0</Background>
 	<Outline>gold</Outline>
 	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
 	<Font antialias="false">smoothansi</Font>
-	<ActiveForeground>white</ActiveForeground>
-	<ActiveBackground>orange:grey13</ActiveBackground>
+	<Active>
+	<Foreground>white</Foreground>
+	<Background>red:grey13</Background>
+	</Active>
+	<Inactive>
 	<Foreground>gold</Foreground>
-<Background>grey20:grey0</Background>
+	<Background>grey20:grey0</Background>
+	</Inactive>
 </TaskListStyle>
 
 <!-- Additional TrayStyle attribute: insert -->
@@ -34,20 +38,32 @@
 	<Foreground>chocolate</Foreground>
 </TrayStyle>
 
+<ClockStyle>
+	<Font>Terminus Bold-16</Font>
+	<Foreground>chocolate</Foreground>
+	<Background>gold</Background>
+</ClockStyle>
+
 <PagerStyle>
 	<Outline>yellow</Outline>
 	<Foreground>black</Foreground>
 	<Background>gold</Background>
-	<ActiveForeground>black</ActiveForeground>
-	<ActiveBackground>grey44</ActiveBackground>
+	<Active>
+	<Foreground>black</Foreground>
+	<Background>grey44</Background>
+	</Active>
 </PagerStyle>
 
 <MenuStyle>
 	<Font antialias="false">smoothansi</Font>
 	<Foreground>black</Foreground>
 	<Background>dark goldenrod</Background>
-	<ActiveForeground>chocolate:darkorange</ActiveForeground>
-	<ActiveBackground>gold</ActiveBackground>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>chocolate:red</Foreground>
+	<Background>gold</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
 </MenuStyle>
 
 <PopupStyle>

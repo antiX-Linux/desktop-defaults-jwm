@@ -7,23 +7,27 @@
 	<Width>4</Width
 	<Height>20</Height>
 	<Active>
-		<Text>gold</Text>
-		<Title>gray50:lightsteelblue</Title>
+		<Foreground>gold</Foreground>
+		<Background>gray50:lightsteelblue</Background>
 	<Outline>black</Outline>
 	</Active>
 	<Inactive>
-		<Text>gray60</Text>
-		<Title>gray50:black</Title>
+		<Foreground>gray60</Foreground>
+		<Background>gray50:black</Background>
 	<Outline>black</Outline>
 	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
 	<Font>DejaVu Sans 12:bold</Font>
-	<ActiveForeground>black</ActiveForeground>
-	<ActiveBackground>orange:yellow</ActiveBackground>
+	<Active>
+	<Foreground>black</Foreground>
+	<Background>orange:yellow</Background>
+	</Active>
+	<Inactive>
 	<Foreground>gray60</Foreground>
 	<Background>gray50:black</Background>
+	</Inactive>
 </TaskListStyle>
 
 <!-- Additional TrayStyle attribute: insert -->
@@ -33,20 +37,32 @@
 	<Foreground>white</Foreground>
 </TrayStyle>
 
+<ClockStyle>
+	<Font>DejaVu Sans 16:bold</Font>
+	<Foreground>white</Foreground>
+	<Background>gray10</Background>
+</ClockStyle>
+
 <PagerStyle>
 	<Outline>black</Outline>
 	<Foreground>gray</Foreground>
 	<Background>gray20</Background>
-	<ActiveForeground>#0E58B3</ActiveForeground>
-	<ActiveBackground>gray20</ActiveBackground>
+	<Active>
+	<Foreground>#0E58B3</Foreground>
+	<Background>gray20</Background>
+	</Active>
 </PagerStyle>
 
 <MenuStyle>
 	<Font>DejaVu Sans 12:bold</Font>
 	<Foreground>white</Foreground>
 	<Background>gray20</Background>
-	<ActiveForeground>black</ActiveForeground>
-	<ActiveBackground>yellow:orange</ActiveBackground>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>black</Foreground>
+	<Background>yellow:orange</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
 </MenuStyle>
 
 <PopupStyle>

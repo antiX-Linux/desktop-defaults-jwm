@@ -7,23 +7,27 @@
 	<Width>2</Width>
 	<Height>25</Height>
 	<Active>
-		<Text>#ffffff</Text>
-		<Title>#004283:#74A2D0</Title>
+		<Foreground>#ffffff</Foreground>
+		<Background>#004283:#74A2D0</Background>
        	<Outline>black</Outline>
 	</Active>
 	<Inactive>
-		<Text>#000000</Text>
-		<Title>#A2C6E7:#4B82B7</Title>
+		<Foreground>#000000</Foreground>
+		<Background>#A2C6E7:#4B82B7</Background>
        	<Outline>black</Outline>
 	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
 	<Font>DejaVu Sans 12</Font>
+	<Active>
 	<Foreground>#000000</Foreground>
 	<Background>#ffffff:#bfbfbf</Background>
-	<ActiveForeground>#ffffff</ActiveForeground>
-	<ActiveBackground>#75b8f7:#3578b7</ActiveBackground>
+	</Active>
+	<Inactive>
+	<Foreground>#ffffff</Foreground>
+	<Background>#75b8f7:#3578b7</Background>
+	</Inactive>
 </TaskListStyle>
 
 <TrayStyle>
@@ -32,24 +36,39 @@
 	<Background>#f1efeb</Background>
 </TrayStyle>
 
+<ClockStyle>
+	<Font>DejaVu Sans 15:bold</Font>
+	<Foreground>#ffffff</Foreground>
+	<Background>#5598d7</Background>
+</ClockStyle>
+
 <PagerStyle>
 	<Outline>black</Outline>
-	<!-- non-active programs: bg[NORMAL]-->
 	<Foreground>#f1efeb</Foreground>
-	<!-- non-active desktops: bg[ACTIVE]-->
 	<Background>#d7d3ca</Background>
-	<!-- selected app/desktop bg[SELECTED]-->
-	<ActiveForeground>#ffffff</ActiveForeground>
-	<!-- frame of selected desktop...bg[SELECTED] -->
-	<ActiveBackground>#5598d7</ActiveBackground>
+	<Active>
+	<Foreground>#ffffff</Foreground>
+	<Background>#5598d7</Background>
+	</Active>
 </PagerStyle>
 
 <MenuStyle>
 	<Font>DejaVu Sans 12</Font>
 	<Foreground>#000000</Foreground>
 	<Background>#f1efeb</Background>
-	<ActiveForeground>#ffffff</ActiveForeground>
-	<ActiveBackground>#004283:#74A2D0</ActiveBackground>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>#ffffff</Foreground>
+	<Background>#004283:#74A2D0</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
 </MenuStyle>
+
+<PopupStyle enabled="true">
+	<Font>DejaVu Sans 10</Font>
+	<Outline>black</Outline>
+	<Foreground>white</Foreground>
+	<Background>olive drab</Background>
+</PopupStyle>
 
 </JWM>

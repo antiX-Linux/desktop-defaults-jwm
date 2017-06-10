@@ -3,53 +3,69 @@
 <!-- evil blue glow -->
 
 <WindowStyle>
-	<Font antialias="false">smoothansi</Font>
+	<Font>Terminus Bold-14</Font>
 	<Width>4</Width>
 	<Height>20</Height>
 	<Active>
-		<Text>snow</Text>
-		<Title>blue:light blue</Title>
+		<Foreground>snow</Foreground>
+		<Background>blue:light blue</Background>
 	<Outline>snow</Outline>
 	</Active>
 	<Inactive>
-		<Text>black</Text>
-		<Title>dark blue:light blue</Title>
+		<Foreground>black</Foreground>
+		<Background>dark blue:light blue</Background>
 	<Outline>light blue</Outline>
 	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
-	<Font antialias="false">smoothansi</Font>
-	<ActiveForeground>black</ActiveForeground>
-	<ActiveBackground>darkblue:snow</ActiveBackground>
+	<Font>DejaVu Sans 12</Font>
+	<Active>
+	<Foreground>black</Foreground>
+	<Background>darkblue:snow</Background>
+	</Active>
+	<Inactive>
 	<Foreground>snow</Foreground>
 	<Background>light blue:blue</Background>
+	</Inactive>
 </TaskListStyle>
 
 <TrayStyle>
-	<Font antialias="false">smoothansi</Font>
+	<Font>DejaVu Sans 11</Font>
 	<Background>blue</Background>
 	<Foreground>dark blue</Foreground>
 </TrayStyle>
+
+<ClockStyle>
+	<Font>Terminus Bold-16</Font>
+	<Foreground>dark blue</Foreground>
+	<Background>blue</Background>
+</ClockStyle>
 
 <PagerStyle>
 	<Outline>grey66</Outline>
 	<Foreground>grey44</Foreground>
 	<Background>snow</Background>
-	<ActiveForeground>darkblue</ActiveForeground>
-	<ActiveBackground>light blue</ActiveBackground>
+	<Active>
+	<Foreground>darkblue</Foreground>
+	<Background>light blue</Background>
+	</Active>
 </PagerStyle>
 
 <MenuStyle>
-	<Font antialias="false">smoothansi</Font>
+	<Font>DejaVu Sans 11</Font>
 	<Foreground>snow</Foreground>
 	<Background>grey0</Background>
-	<ActiveForeground>black</ActiveForeground>
-	<ActiveBackground>blue:white</ActiveBackground>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>black</Foreground>
+	<Background>blue:white</Background>
+	</Active>
+        <Opacity>0.85</Opacity></MenuStyle>
 </MenuStyle>
 
-<PopupStyle>
-	<Font antialias="false">smoothansi</Font>
+<PopupStyle enabled="true">
+	<Font>DejaVu Sans 10</Font>
 	<Outline>light blue</Outline>
 	<Foreground>snow</Foreground>
 	<Background>blue</Background>

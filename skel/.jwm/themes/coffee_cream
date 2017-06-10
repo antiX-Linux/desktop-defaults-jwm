@@ -6,23 +6,27 @@
 	<Width>5</Width>
 	<Height>24</Height>
 	<Active>
-		<Text>white</Text>
-		<Title>#6F4E37:#DEB887</Title>
+		<Foreground>white</Foreground>
+		<Background>#6F4E37:#DEB887</Background>
 	<Outline>#7B3F00</Outline>
 	</Active>
 	<Inactive>
-		<Text>white</Text>
-		<Title>#DEB887:#6F4E37</Title>
+		<Foreground>white</Foreground>
+		<Background>#DEB887:#6F4E37</Background>
 	<Outline>#DEB887</Outline>
 	</Inactive>
 </WindowStyle>
 
 <TaskListStyle>
 	<Font>Terminus Bold-12</Font>
-	<ActiveForeground>white</ActiveForeground>
-	<ActiveBackground>#6F4E37:#DEB887</ActiveBackground>
+	<Active>
+	<Foreground>white</Foreground>
+	<Background>#6F4E37:#DEB887</Background>
+	</Active>
+	<Inactive>
 	<Foreground>black</Foreground>
 	<Background>#DEB887:#6F4E37</Background>
+	</Inactive>
 </TaskListStyle>
 
 <TrayStyle>
@@ -40,16 +44,22 @@
 	<Outline>black</Outline>
 	<Foreground>black</Foreground>
 	<Background>#6F4E37</Background>
-	<ActiveForeground>black</ActiveForeground>
-	<ActiveBackground>#DEB887</ActiveBackground>
+	<Active>
+	<Foreground>black</Foreground>
+	<Background>#DEB887</Background>
+	</Active>
 </PagerStyle>
 
 <MenuStyle>
 	<Font>Terminus Bold-14</Font>
 	<Foreground>black</Foreground>
 	<Background>#DEB887</Background>
-	<ActiveForeground>white</ActiveForeground>
-	<ActiveBackground>#DEB887:#6F4E37</ActiveBackground>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>white</Foreground>
+	<Background>#DEB887:#6F4E37</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
 </MenuStyle>
 
 <PopupStyle enabled="true">

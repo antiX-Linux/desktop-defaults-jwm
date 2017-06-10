@@ -1,3 +1,15 @@
+desktop-defaults-jwm-antix (0.4.1) unstable; urgency=medium
+
+  * layer="above" to tray file
+
+ -- anticapitalista <antix@operamail.com>  Fri, 24 Mar 2017 18:10:16 +0200
+
+desktop-defaults-jwm-antix (0.4.0) unstable; urgency=medium
+
+  * Edited themes for latest jwm in stretch 
+
+ -- anticapitalista <antix@operamail.com>  Fri, 03 Mar 2017 18:24:44 +0200
+
 desktop-defaults-jwm-antix (0.3.9) unstable; urgency=medium
 
   * Use sudo to open antixsources.sh 

@@ -7,16 +7,28 @@
 	<Width>2</Width>
 	<Height>25</Height>
 	<Active>
-		<Text>#ffffff</Text>
-		<Title>#621314:#DD1D16</Title>
+		<Foreground>#ffffff</Foreground>
+		<Background>#621314:#DD1D16</Background>
        	<Outline>black</Outline>
 	</Active>
 	<Inactive>
-		<Text>black</Text>
-		<Title>#b6a767:#ffefad</Title>
+		<Foreground>black</Foreground>
+		<Background>#b6a767:#ffefad</Background>
        	<Outline>black</Outline>
 	</Inactive>
 </WindowStyle>
+
+<TaskListStyle>
+	<Font>DejaVu Sans-13</Font>
+	<Active>
+	<Foreground>#000000</Foreground>
+	<Background>#f6e7a7:#b6a767</Background>
+	</Active>
+	<Inactive>
+	<Foreground>#ffffff</Foreground>
+	<Background>#94a974:#d4e9b4</Background>
+	</Inactive>
+</TaskListStyle>
 
 <TrayStyle>
 	<Font>DejaVu Sans-13:bold</Font>
@@ -24,20 +36,33 @@
 	<Background>#D6CEC5</Background>
 </TrayStyle>
 
-<TaskListStyle>
-	<Font>DejaVu Sans-13</Font>
+<ClockStyle>
+	<Font>DejaVu Sans-16:bold</Font>
 	<Foreground>#000000</Foreground>
-	<Background>#f6e7a7:#b6a767</Background>
-	<ActiveForeground>#ffffff</ActiveForeground>
-	<ActiveBackground>#94a974:#d4e9b4</ActiveBackground>
-</TaskListStyle>
+	<Background>#D6CEC5</Background>
+</ClockStyle>
 
 <PagerStyle>
+	<Outline>black</Outline>
 	<Foreground>#D6CEC5</Foreground>
 	<Background>#d6c787</Background>
-	<ActiveForeground>#C2BBB2</ActiveForeground>
-	<ActiveBackground>#E6DFD6</ActiveBackground>
+	<Active>
+	<Foreground>#C2BBB2</Foreground>
+	<Background>#E6DFD6</Background>
+	</Active>
 </PagerStyle>
+
+<MenuStyle>
+	<Font>tahoma-13</Font>
+	<Foreground>black</Foreground>
+	<Background>#ABB5C9</Background>
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>#ffffff</Foreground>
+	<Background>#1D35B1:#A1C5FF</Background>
+	</Active>
+        <Opacity>0.85</Opacity>
+</MenuStyle>
 
 <PopupStyle>
 	<Font>tahoma-13</Font>
@@ -45,13 +70,5 @@
 	<Foreground>black</Foreground>
 	<Background>#EFEBDE</Background>
 </PopupStyle>
-
-<MenuStyle>
-	<Font>tahoma-13</Font>
-	<Foreground>black</Foreground>
-	<Background>#ABB5C9</Background>
-	<ActiveForeground>#ffffff</ActiveForeground>
-	<ActiveBackground>#1D35B1:#A1C5FF</ActiveBackground>
-</MenuStyle>
 
 </JWM>

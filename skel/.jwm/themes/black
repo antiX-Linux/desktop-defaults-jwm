@@ -7,23 +7,27 @@
 	<Width>4</Width 
 	<Height>20</Height> 
 	<Active> 
-		<Text>black</Text> 
-		<Title>white:#dce2f2</Title> 
+		<Foreground>black</Foreground> 
+		<Background>white:#dce2f2</Background> 
 	<Outline>black</Outline> 
 	</Active> 
 	<Inactive> 
-		<Text>#aaaaaa</Text> 
-		<Title>:black</Title> 
+		<Foreground>#aaaaaa</Foreground> 
+		<Background>:black</Background> 
 	<Outline>black</Outline> 
 	</Inactive> 
 </WindowStyle> 
 
 <TaskListStyle> 
 	<Font>DejaVu Sans 12</Font> 
-	<ActiveForeground>white</ActiveForeground> 
-	<ActiveBackground>black:#9dbbdb</ActiveBackground> 
+	<Active>
+	<Foreground>white</Foreground> 
+	<Background>black:#9dbbdb</Background> 
+	</Active>
+	<Inactive>
 	<Foreground>white</Foreground> 
 	<Background>gray50:black</Background> 
+	</Inactive>
 </TaskListStyle> 
 
 <TrayStyle> 
@@ -32,23 +36,35 @@
 	<Foreground>white</Foreground> 
 </TrayStyle> 
 
+<ClockStyle>
+	<Font>DejaVu Sans 12</Font>
+	<Foreground>white</Foreground>
+	<Background>gray10</Background>
+</ClockStyle>
+
 <PagerStyle> 
 	<Outline>black</Outline> 
 	<Foreground>white</Foreground> 
 	<Background>gray20</Background> 
-	<ActiveForeground>#9dbbdb</ActiveForeground> 
-	<ActiveBackground>gray20</ActiveBackground> 
+	<Active>
+	<Foreground>#9dbbdb</Foreground> 
+	<Background>gray20</Background> 
+	</Active>
 </PagerStyle> 
 
 <MenuStyle> 
 	<Font>DejaVu Sans 10</Font> 
 	<Foreground>white</Foreground> 
 	<Background>gray20</Background> 
-	<ActiveForeground>white</ActiveForeground> 
-	<ActiveBackground>#9dbbdb:black</ActiveBackground> 
+        <Outline>#000000</Outline>
+       <Active>
+	<Foreground>white</Foreground> 
+	<Background>#9dbbdb:black</Background> 
+	</Active>
+        <Opacity>0.85</Opacity>
 </MenuStyle> 
 
-<PopupStyle> 
+<PopupStyle enabled="true">
 	<Font>DejaVu Sans 10</Font> 
 	<Outline>black</Outline> 
 	<Foreground>black</Foreground> 
