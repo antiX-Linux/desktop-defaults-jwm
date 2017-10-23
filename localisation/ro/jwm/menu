@@ -35,7 +35,6 @@
         <Menu label="JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Homepage">dillo http://joewing.net/programs/jwm/</Program>
             <Program label="Arch Wiki">dillo https://wiki.archlinux.org/index.php/JWM</Program>
-            <Program label="WM - Puppy-Linux">dillo http://puppy.b0x.me/wiki/doku.php?id=jwm</Program>
         </Menu>
         <Separator/>
         <Menu label="Aplicatii" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">

@@ -1,3 +1,10 @@
+desktop-defaults-jwm-antix (0.4.2) unstable; urgency=medium
+
+  * Remove broke link to Puppy linux - thanks skidoo
+  * Keys set to suggested
+
+ -- anticapitalista <antix@operamail.com>  Sat, 07 Oct 2017 18:03:27 +0300
+
 desktop-defaults-jwm-antix (0.4.1) unstable; urgency=medium
 
   * layer="above" to tray file

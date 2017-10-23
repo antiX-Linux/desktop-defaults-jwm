@@ -21,41 +21,39 @@
 <Key mask="CA" key="KP_Multiply">exec: amixer -c 0 set Master 5+</Key>
 <Key mask="CA" key="KP_Add">exec: amixer sset Master toggle</Key>
 
-<Key mask="CA" key="Delete">exec: desktop-session-exit</Key>
+<!-- <Key mask="CA" key="Delete">exec: desktop-session-exit</Key>
 <Key mask="CA" key="Left">ldesktop</Key>
 <Key mask="CA" key="Right">rdesktop</Key>
 <Key mask="CA" key="Up">udesktop</Key>
 <Key mask="CA" key="Down">ddesktop</Key>
 <Key mask="CA" key="Return">maximize</Key>
 <Key mask="C4" key="Return">minimize</Key>
-<Key mask="CA" key="e">exec: desktop-defaults-run -e</Key>
-<Key mask="CA" key="r">exec: gexec</Key>
-<Key mask="CA" key="t">exec: desktop-defaults-run -t</Key>
-<Key mask="C4" key="t">exec: desktop-defaults-run -r -t</Key>
-<Key mask="CA" key="u">exec: gftp</Key>
-<Key mask="CA" key="i">exec: desktop-defaults-run -i</Key>
-<Key mask="CA" key="o">exec: libreoffice</Key>
-<Key mask="CA" key="p">exec: desktop-defaults-run -t htop</Key>
-<Key mask="C4" key="p">exec: desktop-defaults-run -r -t htop</Key>
-<Key mask="CA" key="a">exec: desktop-defaults-run -a</Key>
-<Key mask="CA" key="s">exec: antixscreenshot.sh</Key>
-<Key mask="CA" key="d">exec: gksu synaptic</Key>
-<Key mask="CA" key="f">exec: desktop-defaults-run -fm</Key>
-<Key mask="C4" key="f">exec: desktop-defaults-run -r -fm </Key>
-<Key mask="CA" key="g">exec: desktop-defaults-run -te</Key>
-<Key mask="C4" key="g">exec: desktop-defaults-run -r -te</Key>
-<Key mask="CA" key="h">exec: desktop-defaults-run -b file:/usr/share/antiX/FAQ/index.html</Key>
-<Key mask="CA" key="k">exec: desktop-session-exit</Key>
-<Key mask="CA" key="l">exec: slock</Key>
-<Key mask="CA" key="z">exec: grsync</Key>
-<Key mask="CA" key="x">exec: xkill</Key>
-<Key mask="CA" key="c">exec: antixcc.sh</Key>
-<Key mask="CA" key="v">exec: desktop-defaults-run -v</Key>
-<Key mask="CA" key="b">exec: desktop-defaults-run -b</Key>
-<Key mask="CA" key="n">exec: speedcrunch</Key>
-
+<!-- <Key mask="CA" key="e">exec: desktop-defaults-run -e</Key>
+<!-- <Key mask="CA" key="r">exec: gexec</Key>
+<!-- <Key mask="CA" key="t">exec: desktop-defaults-run -t</Key>
+<!-- <Key mask="C4" key="t">exec: desktop-defaults-run -r -t</Key>
+<!-- <Key mask="CA" key="u">exec: gftp</Key>
+<!-- <Key mask="CA" key="i">exec: desktop-defaults-run -i</Key>
+<!-- <Key mask="CA" key="o">exec: libreoffice</Key>
+<!-- <Key mask="CA" key="p">exec: desktop-defaults-run -t htop</Key>
+<!-- <Key mask="C4" key="p">exec: desktop-defaults-run -r -t htop</Key>
+<!-- <Key mask="CA" key="a">exec: desktop-defaults-run -a</Key>
+<!-- <Key mask="CA" key="s">exec: antixscreenshot.sh</Key>
+<!-- <Key mask="CA" key="d">exec: gksu synaptic</Key>
+<!-- <Key mask="CA" key="f">exec: desktop-defaults-run -fm</Key>
+<!-- <Key mask="C4" key="f">exec: desktop-defaults-run -r -fm </Key>
+<!-- <Key mask="CA" key="g">exec: desktop-defaults-run -te</Key>
+<!-- <Key mask="C4" key="g">exec: desktop-defaults-run -r -te</Key>
+<!-- <Key mask="CA" key="h">exec: desktop-defaults-run -b file:/usr/share/antiX/FAQ/index.html</Key>
+<!-- <Key mask="CA" key="k">exec: desktop-session-exit</Key>
+<!-- <Key mask="CA" key="l">exec: xlock</Key>
+<!-- <Key mask="CA" key="z">exec: grsync</Key>
+<!-- <Key mask="CA" key="x">exec: xkill</Key>
+<!-- <Key mask="CA" key="c">exec: antixcc.sh</Key>
+<!-- <Key mask="CA" key="v">exec: desktop-defaults-run -v</Key>
+<!-- <Key mask="CA" key="b">exec: desktop-defaults-run -b</Key>
 <!-- <Key key="F1">exec: desktop-defaults-run -t</Key>
-<!-- <Key key="F2">exec: gexec</Key>
+<Key key="F2">exec: gexec</Key>
 <!-- <Key key="F3">exec: desktop-defaults-run -fm</Key>
 <!-- <Key key="F4">exec: desktop-defaults-run -b</Key>
 <!-- <Key key="F5">exec: antixcc.sh</Key>
