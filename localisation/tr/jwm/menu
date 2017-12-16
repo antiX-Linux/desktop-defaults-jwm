@@ -5,20 +5,20 @@
     <Program label="Tarayıcı" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png">desktop-defaults-run -b</Program>
     <Program label="Editör" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png">desktop-defaults-run -te</Program>
     <Separator/>
-    <Menu label="Personal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
+    <Menu label="Kişisel" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
         <Include>$HOME/.jwm/personal</Include>
     </Menu>
     <Menu label="Uygulamalar" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Program label="Update Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
+    <Program label="Menüyü Güncelle" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     <Separator/>
     <Menu label="Masaüstü" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
-        <Menu label="Other Desktops" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+        <Menu label="Diğer Masaüstleri" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
             <Include>/usr/share/desktop-session/wm-menus/jwm-wm-menu</Include>
         </Menu>
-        <Program label="RoxPanel on/off" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
-        <Program label="Conky on/off" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png">conkytoggle.sh</Program>
+        <Program label="RoxPanel aç/kapa" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
+        <Program label="Conky açık/kapalı" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png">conkytoggle.sh</Program>
     </Menu>
         <Program label="App Killer" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png">xkill</Program>
     <Program label="Denetim Masası" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png">antixcc.sh</Program>
@@ -26,23 +26,23 @@
     <Menu label="Yardım" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png">
         <Menu label="antiX" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="antiX Video">dillo /usr/share/antiX/antix_help_videos.html</Program>
-            <Program label="antiX FAQ">dillo /usr/share/antiX/FAQ/index.html</Program>
-            <Program label="antiX-live How-To">dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html</Program>
+            <Program label="antiX SSS">dillo /usr/share/antiX/FAQ/index.html</Program>
+            <Program label="antiX-çalışan Nasıl">dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html</Program>
             <Separator/>
-            <Program label="Rox Manual">dillo http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
+            <Program label="Rox Kılavuzu">dillo http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
         </Menu>
         <Separator/>
         <Menu label="JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Homepage">dillo http://joewing.net/programs/jwm/</Program>
+            <Program label="Anasayfa">dillo http://joewing.net/programs/jwm/</Program>
             <Program label="Arch Wiki">dillo https://wiki.archlinux.org/index.php/JWM</Program>
         </Menu>
         <Separator/>
         <Menu label="Uygulamalar" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Firewall">dillo https://help.ubuntu.com/community/Gufw</Program>
+            <Program label="Güvenlik Duvarı">dillo https://help.ubuntu.com/community/Gufw</Program>
             <Program label="Partimage">dillo http://www.partimage.org/Partimage-manual_Usage</Program>
         </Menu>
-        <Menu label="Man Pages" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Backup">desktop-defaults-run -t man luckybackup</Program>
+        <Menu label="Kılavuz Sayfaları" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
+            <Program label="Yedekle">desktop-defaults-run -t man luckybackup</Program>
             <Program label="Irssi">desktop-defaults-run -t man irssi</Program>
             <Program label="mc">desktop-defaults-run -t man mc</Program>
             <Program label="mocp">desktop-defaults-run -t man mocp</Program>
@@ -52,7 +52,7 @@
             <Program label="Torrent">desktop-defaults-run -t man rtorrent</Program>
         </Menu>
     </Menu>
-    <Program label="Run" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>  
+    <Program label="Çalıştır" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>  
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
     <Program label="Kurmak" icon="/usr/share/icons/msystem.png">sudo antixsources.sh</Program>

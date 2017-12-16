@@ -11,7 +11,7 @@
     <Menu label="Programari" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Program label="Actualitza el menú " icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
+    <Program label="Actualitza el menú" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     <Separator/>
     <Menu label="Escriptori" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
         <Menu label="Escriptoris alternatius" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">

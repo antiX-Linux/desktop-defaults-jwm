@@ -6,7 +6,7 @@
 
    <!-- Additional TrayButton attributes: label, icon, popup -->
    <TrayButton label=" antiX  ">root:1</TrayButton>
-   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png" popup="Atjungti keičiamąjį įrenginį">exec: unplugdrive.sh</TrayButton>
+   <TrayButton label="" icon="/usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png" popup="Ауыстырмалы құрылғыны шығару">exec: unplugdrive.sh</TrayButton>
    
    <!-- Additional TaskList attribute: maxwidth -->
    <TaskList maxwidth="125"/>

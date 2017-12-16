@@ -13,8 +13,8 @@
     </Menu>
     <Program label="Aggiorna Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     <Separator/>
-    <Menu label="Scrivania" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
-        <Menu label="Scrivania alternativi" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+    <Menu label="Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+        <Menu label="Cambia Desktop" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
             <Include>/usr/share/desktop-session/wm-menus/jwm-wm-menu</Include>
         </Menu>
         <Program label="RoxPanel on/off" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
@@ -41,7 +41,7 @@
             <Program label="Firewall">dillo https://help.ubuntu.com/community/Gufw</Program>
             <Program label="Partimage">dillo http://www.partimage.org/Partimage-manual_Usage</Program>
         </Menu>
-        <Menu label="Pagine Manuale" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
+        <Menu label="Pagine Man" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
             <Program label="Backup">desktop-defaults-run -t man luckybackup</Program>
             <Program label="Irssi">desktop-defaults-run -t man irssi</Program>
             <Program label="mc">desktop-defaults-run -t man mc</Program>
@@ -52,7 +52,7 @@
             <Program label="Torrent">desktop-defaults-run -t man rtorrent</Program>
         </Menu>
     </Menu>
-    <Program label="Esegui programma" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>
+    <Program label="Esegui..." icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
     <Program label="Installa" icon="/usr/share/icons/msystem.png">sudo antixsources.sh</Program>

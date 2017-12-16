@@ -11,10 +11,10 @@
     <Menu label="Applications" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Program label="Mise à jour Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
+    <Program label="Menu Mise à jour" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     <Separator/>
     <Menu label="Bureau" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
-        <Menu label="autre bureau" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+        <Menu label="autres bureaux" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
             <Include>/usr/share/desktop-session/wm-menus/jwm-wm-menu</Include>
         </Menu>
         <Program label="RoxPanel marche/arrêt" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
@@ -29,7 +29,7 @@
             <Program label="antiX FAQ">dillo /usr/share/antiX/FAQ/index.html</Program>
             <Program label="antiX-live HowTo">dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html</Program>
             <Separator/>
-            <Program label="Manuel Rox">dillo http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
+            <Program label="Manuel de ROX">dillo http://rox.sourceforge.net/Manual/Manual/Manual.html</Program>
         </Menu>
         <Separator/>
         <Menu label="JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">

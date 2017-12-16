@@ -1,3 +1,9 @@
+desktop-defaults-jwm-antix (0.4.3) unstable; urgency=medium
+
+  * Updated translations
+
+ -- anticapitalista <antix@operamail.com>  Wed, 15 Nov 2017 00:06:10 +0200
+
 desktop-defaults-jwm-antix (0.4.2) unstable; urgency=medium
 
   * Remove broke link to Puppy linux - thanks skidoo

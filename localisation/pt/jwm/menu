@@ -5,16 +5,16 @@
     <Program label="Navegador" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png">desktop-defaults-run -b</Program>
     <Program label="Editor" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png">desktop-defaults-run -te</Program>
     <Separator/>
-    <Menu label="Personal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
+    <Menu label="Pessoal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png">
         <Include>$HOME/.jwm/personal</Include>
     </Menu>
     <Menu label="Aplicativos" icon="/usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png">
         <Include>$HOME/.jwm/menu-applications</Include>
     </Menu>
-    <Program label="Update Menu" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
+    <Program label="Menu Actualizar" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png">desktop-menu --write-out-global</Program>
     <Separator/>
-    <Menu label="Área de trabalho" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
-        <Menu label="Other Desktops" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+    <Menu label="Ambiente de trabalho" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
+        <Menu label="Alternar entre Ambientes de trabalho" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png">
             <Include>/usr/share/desktop-session/wm-menus/jwm-wm-menu</Include>
         </Menu>
         <Program label="RoxPanel lig./desl." icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png">paneltoggle.sh</Program>
@@ -33,7 +33,7 @@
         </Menu>
         <Separator/>
         <Menu label="JWM" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Homepage">dillo http://joewing.net/programs/jwm/</Program>
+            <Program label="Página Inicial">dillo http://joewing.net/programs/jwm/</Program>
             <Program label="Arch Wiki">dillo https://wiki.archlinux.org/index.php/JWM</Program>
         </Menu>
         <Separator/>
@@ -42,7 +42,7 @@
             <Program label="Partimage">dillo http://www.partimage.org/Partimage-manual_Usage</Program>
         </Menu>
         <Menu label="Documentação" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png">
-            <Program label="Backup">desktop-defaults-run -t man luckybackup</Program>
+            <Program label="Cópia de segurança">desktop-defaults-run -t man luckybackup</Program>
             <Program label="Irssi">desktop-defaults-run -t man irssi</Program>
             <Program label="mc">desktop-defaults-run -t man mc</Program>
             <Program label="mocp">desktop-defaults-run -t man mocp</Program>
@@ -55,5 +55,5 @@
     <Program label="Executar" icon="/usr/share/icons/Faenza-Cupertino-mini/actions/32/system-run.png">gexec</Program>
     <Separator/>
     <Include>$HOME/.jwm/themes-list</Include>
-    <Program label="Instalar" icon="/usr/share/icons/msystem.png">sudo antixsources.sh</Program>
+    <Program label="Instalador do antiX" icon="/usr/share/icons/msystem.png">sudo antixsources.sh</Program>
 </JWM>
