@@ -1,6 +1,6 @@
 <JWM>
     <Program label="Terminal" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png">desktop-defaults-run -t</Program>
-    <Program label="File Manager" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png">desktop-defaults-run -fm</Program>
+    <Program label="File Manager" icon="/usr/share/icons/Faenza-Cupertino-mini/places/32/user-home.png">desktop-defaults-run -fm</Program>
     <Separator/>
     <Program label="Web Browser" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png">desktop-defaults-run -b</Program>
     <Program label="Editor" icon="/usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png">desktop-defaults-run -te</Program>
